@@ -5,10 +5,6 @@ A tiny [Hermes Agent](https://hermes-agent.nousresearch.com) desktop plugin that
 
 ![Session cost chip in the Hermes status bar](assets/statusbar.png)
 
-```
-≈$0.0521
-```
-
 No API key, no backend — the cost is read straight from Hermes' own session
 accounting (`estimated_cost_usd` / `actual_cost_usd` on the session row), priced
 from the model catalog. Works with any provider, not just OpenRouter.
@@ -56,8 +52,10 @@ you between chat tiles.
 - Follows the focused session (tile-aware)
 - Zero provider API calls, zero secrets
 
-![Close-up of the session cost chip](assets/chip.png)
-
 ## License
 
 MIT
+
+---
+
+Made by [404BugX](https://github.com/404BugX) and his Agent.
